@@ -257,3 +257,53 @@ header{
     width: 100px;
     height: 100px;
 }
+
+
+
+/* PAGE ABOUT */
+/* ABOUT PAGE */
+
+.About-box{
+    text-align: left;
+    padding: 3%;
+    border-bottom: dashed 1px black;
+}
+
+.work-box{
+    padding: 3%;
+    text-align: left;
+    border-top: dashed 1px black;
+}
+
+
+.center-box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.center-box2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+.first{
+    padding: 3%;
+    border-bottom: dashed 1px black;
+}
+.second{
+    padding: 3%;
+    border-bottom: dashed 1px black;
+}
+.third{
+    padding: 3%;
+}
+.forth{
+    padding: 3%;
+}
+h2{
+    padding: 2%;
+}
