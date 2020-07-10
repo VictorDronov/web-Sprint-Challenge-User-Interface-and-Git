@@ -96,11 +96,10 @@ p {
 }
 
 .middle-content .boxes {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around; 
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -150,8 +149,8 @@ footer nav a {
 
 .top-content, .boxes{
     padding-top: 2%;
-    border-bottom: black 1px dashed;;
-}
+    /* border-bottom: black 1px dashed;;*/
+} 
 
 
 /* CSS FOR HOME PAGE  */
@@ -193,12 +192,20 @@ header{
 
 /* BOXES */
 .boxes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     color: white;
-    width: 100%;
     padding-bottom: 3%;
+}
+.bottom5{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    text-align: center;
+}
+.top5{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
 }
 .box1{
     background-color: teal;
